@@ -1,1 +1,208 @@
-hokog
+
+            <!DOCTYPE html>
+<html lang="es">
+<head>
+  <style> 
+  body { background-image: url(hamilton-ferrari.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HISTORIA DE LEWIS HAMILTON</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(hamilton-ferrari.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: white;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        #header {
+            background: linear-gradient(135deg, blueviolet, #6a0dad);
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        #header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        #header h3 {
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            font-weight: normal;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+
+        .container {
+            display: flex;
+            min-height: calc(100vh - 200px);
+            flex-wrap: wrap;
+        }
+
+        #enlaces {
+            width: 250px;
+            background: rgba(244, 244, 244, 0.95);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+        }
+
+        #enlaces h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        #enlaces ul {
+            list-style-type: none;
+        }
+
+        #enlaces li {
+            margin-bottom: 12px;
+        }
+
+        #enlaces a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+            transition: color 0.3s;
+            display: block;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        #enlaces a:hover {
+            background-color: rgba(138, 43, 226, 0.1);
+            color: #6a0dad;
+        }
+
+        #contenido {
+            flex-grow: 1;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+        }
+
+        #contenido h3 {
+            color: #ffd700;
+            margin: 25px 0 15px 0;
+            font-size: 1.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        #contenido p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+
+        #contenido ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        #contenido li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+
+        #contenido li::before {
+            content: '🏆';
+            position: absolute;
+            left: 0;
+        }
+
+        #contenido img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            border: 3px solid rgba(255, 215, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            #enlaces {
+                width: 100%;
+            }
+
+            #header h1 {
+                font-size: 1.8em;
+            }
+
+            #header h3 {
+                font-size: 0.95em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>PRESENTACIÓN LEWIS HAMILTON</h1>
+        <h3>¿Quién es Lewis Hamilton? Hamilton es el mejor piloto de F1 o uno de los mejores del mundo y de la historia, ganador de 7 Campeonatos del mundo de pilotos con 6 victorias en Mercedes y su primer campeonato que ganó en McLaren. Es el piloto con más victorias, poles y podios de la historia y más mundiales empatado con la leyenda Michael Schumacher.</h3>
+    </div>
+
+    <div class="container">
+        <div id="enlaces">
+            <h3>Menú</h3>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Lewis_Hamilton" target="_blank">📚 Wikipedia Lewis Hamilton</a></li>
+                <li><a href="https://www.instagram.com/lewishamilton/" target="_blank">📱 Instagram</a></li>
+                <li><a href="https://www.formula1.com/en/drivers/lewis-hamilton.html" target="_blank">🏎️ Perfil Oficial F1</a></li>
+            </ul>
+        </div>
+
+        <div id="contenido">
+            <p>Hola, soy <strong>LEWIS HAMILTON</strong> y este es mi palmarés.</p>
+        
+            <h3>LOGROS:</h3>
+            <ul>
+                <li>7 Campeonatos del mundo</li>
+                <li>105 Victorias</li>
+                <li>202 Podios</li>
+                <li>104 Poles</li>
+            </ul>
+    </div>
+</body>
+</html>
